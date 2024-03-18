@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lora', sans-serif;
+    background-color: #d9d7f3;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dropdown-item {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Move the login and logout buttons to the right */
+  nav .dropdown {
+    margin-left: auto;
+  }
+  

@@ -1,0 +1,37 @@
+.get-data {
+    margin: 0 auto;
+    width: 500px;
+  }
+  
+  .get-data h1 {
+    text-align: center;
+  }
+  
+  .get-data label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .get-data input {
+    width: 200px;
+  }
+  
+  .get-data button {
+    margin-top: 10px;
+  }
+  
+  .get-data table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .get-data th,
+  .get-data td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  .get-data th {
+    background-color: #ccc;
+  }
+  
